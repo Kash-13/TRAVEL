@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Travel Agency</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="booking.html">Booking</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Package Comparison</h2>
+    <table>
+        <tr>
+            <th>Features</th>
+            <th>Basic</th>
+            <th>Standard</th>
+            <th>Premium</th>
+        </tr>
+        <tr>
+            <td>Days</td>
+            <td>3</td>
+            <td>5</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Hotel</td>
+            <td>3 Star</td>
+            <td>4 Star</td>
+            <td>5 Star</td>
+        </tr>
+        <tr>
+            <td>Meals</td>
+            <td>Breakfast</td>
+            <td>Half Board</td>
+            <td>All Inclusive</td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>$499</td>
+            <td>$899</td>
+            <td>$1499</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Book Your Trip</h2>
+    <form id="bookingForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" id="travelDate" required>
+        <button type="submit">Book Now</button>
+        <p id="errorMsg"></p>
+    </form>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Email: travelagency@email.com</p>
+    <p>Phone: +123 456 7890</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
